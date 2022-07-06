@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	height: 100vh;
+}
+
+.info_In {
+	width: 70%;
+	margin: 0 auto;
+	padding: 10px;
+}
+.info_In textarea {
+	width: 100%;
+	height: 150px;
+	box-sizing: border-box;
+	border: 1px solid #3335;
+	outline: none;
+	padding: 15px;
+	font-family: arial;
+	font-size: 20px;
+	margin-bottom: 20px;
+	resize: none;
+}
+
+.info_In .loopCount {
+	width: 30%;
+	padding: 10px;
+	border: 1px solid #3335;
+	outline: none;
+}
+.line_or_none {
+	width: 70%;
+	padding-left: 30px;
+}
+.line_or_none input {
+	margin-right: 10px;
+}
+.info_In button {
+	margin-left: 15%;
+	width: 70%;
+	padding: 10px;
+	font-size: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+	border-radius: 15px;
+	border: none;
+	color: #fff;
+	background: #5957e5;
+}
+.info_In button:active {
+	background: #3b39b7;
+}
+
+.loopShow {
+	width: 70%;
+	height: 300px;
+	font-size: 18px;
+	margin-top: 10px;
+	resize: none;
+	margin-left: 15%;
+	box-sizing: border-box;
+	border: 1px solid #3335;
+	outline: none;
+	padding: 15px;
+	font-family: arial;
+	display: none;
+}
